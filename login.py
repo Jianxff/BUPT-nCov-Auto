@@ -1,4 +1,3 @@
-import requests
 import os
 from lxml import etree
 from base import EXECUTION_XPATH, LOGIN_URL, SERVICE, USER_AGENT, logging
@@ -15,7 +14,7 @@ def login(session):
     # 获取execution
     html = etree.HTML(response.content)
     execution = html.xpath(EXECUTION_XPATH)[0]
-    logging.debug('execution: %s', execution)
+    # logging.debug('execution: %s', execution)
 
     # 构造表单数据
     data = {

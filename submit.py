@@ -1,7 +1,6 @@
 from datetime import time
 import time
 import os
-import requests
 import logging
 from base import USER_AGENT, DATA, FORM_URL, logging
 

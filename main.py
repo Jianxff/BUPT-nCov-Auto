@@ -9,7 +9,7 @@ if __name__ == '__main__':
     # os.environ['PASSWORD'] = '' # 信息门户密码
     # os.environ['AREA'] = ''     # '省+市+县'
     # os.environ['PUSHDEER'] = '' # PushDeer Key
-    
+
     session = requests.Session()
     login(session)
     msg = submit(session)

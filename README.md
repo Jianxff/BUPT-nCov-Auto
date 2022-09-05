@@ -1,2 +1,2 @@
 # BUPT-nCov-Auto
-Automaicly submit BUPT-nCov infomation
+Automaticly submit BUPT-nCov infomation

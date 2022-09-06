@@ -12,7 +12,7 @@ def push(msg):
 
     try:
         pushdeer = PushDeer(pushkey=key)
-        pushdeer.send_text('[BUPT nCov] ' + msg)
+        pushdeer.send_text('[BUPT-nCov] ' + msg)
 
     except Exception as e:
         logging.info(e)

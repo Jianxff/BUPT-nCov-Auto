@@ -5,6 +5,7 @@ from submit import submit
 from base import logging
 
 if __name__ == '__main__':
+    # import os
     # os.environ['USERNAME'] = '' # 学号
     # os.environ['PASSWORD'] = '' # 信息门户密码
     # os.environ['AREA'] = ''     # '省+市+县'
